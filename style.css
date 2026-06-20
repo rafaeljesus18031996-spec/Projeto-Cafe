@@ -32,7 +32,7 @@ section {
   right: 0;
   z-index: 99;
   border-bottom: var(--border);
-  background: var(--bg);
+  background: rgb(3, 3, 3, 0.95);
 }
 .header section {
   display: flex;
@@ -223,3 +223,13 @@ section {
   padding: 1rem;
 }
 
+.menu-btn {
+  display: none;
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header section {
+  position: relative;
+}
